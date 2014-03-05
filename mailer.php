@@ -22,7 +22,7 @@ $fromAddress = "From marshall@redscriptdesign.com";
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<title>Bob's Auto Parts - Feedback Submitted</title>
-	<h1>HEYOOOO TOKYOOOOO</h1>
+	<h1>HEYOOOO TOKYOOOOO Negro</h1>
 	<div><?php 
 		$mailContentReader = strtok($mailContent, " ");
 		while($mailContentReader != ""){
