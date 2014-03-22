@@ -56,7 +56,7 @@ $arrayFun = array(array('TIR','Tire', 100),
 
 
 		if($totalqty == 0){
-			echo 'YOU DIDNT ORDER SHIT DUMBASS';
+			echo 'YOU DIDNT ORDER ANYTHING!';
 		}else{
 			$totalamount = $tireqty * TIREPRICE + $oilqty * OILPRICE + $sparkqty * SPARKPRICE;		
 			echo '<p>Order Processed at '.date('H:i, jS F Y').'</p>';
@@ -77,14 +77,14 @@ $arrayFun = array(array('TIR','Tire', 100),
 
 		switch ($find) {
 			case 'a':
-				echo 'nigga be a regular customer!';
+				echo 'you need to be a regular customer!';
 				break;
 			case 'b':
-				echo 'nigga watch a fuck ton of TV!';
+				echo 'you watch a lot of TV!';
 			case 'c':
-				echo 'we called that nigga! nice!';
+				echo 'we called that! nice!';
 			case 'd':
-				echo 'nigga got some nigga friends';
+				echo 'you got some friends';
 			default:
 				# code...
 				break;
